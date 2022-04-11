@@ -14,13 +14,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #000000;
+  height: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 10px;
   color: white;
 }
 
@@ -35,4 +35,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+input[name=author]{
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+}
+input[name=title]{
+  display: flex;
+  flex-direction: column;
+  width:80%;
+  background-color: red;
 }
